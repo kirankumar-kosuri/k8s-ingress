@@ -48,8 +48,8 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/tags: Environment=dev,Project=roboshop
     alb.ingress.kubernetes.io/target-type: ip
-    ingressClassName: alb
 spec:
+  ingressClassName: alb
   rules:
   - host: "app1.engg.site"
     http:
